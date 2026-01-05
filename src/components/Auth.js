@@ -9,7 +9,7 @@ const Auth = () => {
     <div style={{ padding: "20px" }}>
       <h2>Click on the checkbox to get authenticated</h2>
 
-      <p>
+      <p className="authText">
         {isAuthenticated
           ? "You are now authenticated, you can proceed"
           : "you are not authenticated"}
